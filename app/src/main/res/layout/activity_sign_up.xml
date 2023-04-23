@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/vg90"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".SignUpActivity">
+
+<TextView
+    android:id="@+id/text_label"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Create an Account "
+    android:textColor="@color/black"
+    android:textSize="32sp"
+    android:textStyle="bold"
+    app:layout_constraintLeft_toRightOf="@id/vg10"
+    app:layout_constraintTop_toBottomOf="@id/hg10"
+    android:layout_marginLeft="30dp"
+
+    />
+
+<EditText
+    android:id="@+id/edt_name"
+    android:layout_width="320dp"
+    android:layout_height="48dp"
+    android:layout_marginTop="32dp"
+
+    android:hint="Enter Full Name"
+    android:inputType="textPersonName"
+    app:layout_constraintHorizontal_bias="0.089"
+    app:layout_constraintLeft_toRightOf="@id/vg10"
+    app:layout_constraintRight_toRightOf="@id/vg90"
+    app:layout_constraintTop_toBottomOf="@id/text_label" />
+
+<EditText
+    android:id="@+id/edt_email"
+    android:layout_width="320dp"
+    android:layout_height="48dp"
+    android:layout_marginTop="32dp"
+
+    android:hint="Enter email                         @gmail.com"
+    android:inputType="textEmailAddress"
+    app:layout_constraintHorizontal_bias="0.089"
+    app:layout_constraintLeft_toRightOf="@id/vg10"
+    app:layout_constraintRight_toRightOf="@id/vg90"
+    app:layout_constraintTop_toBottomOf="@id/edt_name" />
+
+<EditText
+    android:id="@+id/edt_password"
+    android:layout_width="320dp"
+    android:layout_height="48dp"
+    android:layout_marginTop="24dp"
+
+    android:hint="Enter your password"
+    android:inputType="textPassword"
+    app:layout_constraintHorizontal_bias="0.089"
+    app:layout_constraintLeft_toRightOf="@id/vg10"
+    app:layout_constraintRight_toRightOf="@id/vg90"
+    app:layout_constraintTop_toBottomOf="@id/edt_email" />
+
+<TextView
+    android:id="@+id/text_alreadyhaveaccount"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:hint="Already have an Account? "
+    android:textColor="@color/black"
+    android:textSize="18sp"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintLeft_toRightOf="@id/vg10"
+    app:layout_constraintTop_toBottomOf="@id/edt_password" />
+
+<TextView
+    android:id="@+id/text_login"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="log in "
+    android:textColor="#64B5F6"
+    android:textSize="18sp"
+    app:layout_constraintLeft_toRightOf="@id/text_alreadyhaveaccount"
+    app:layout_constraintTop_toTopOf="@id/text_alreadyhaveaccount"
+    app:layout_constraintBottom_toBottomOf="@id/text_alreadyhaveaccount"/>
+
+/>
+
+<Button
+    android:id="@+id/btn_signup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:text="Sign Up"
+    android:layout_marginRight="40dp"
+    app:layout_constraintLeft_toLeftOf="@id/vg10"
+    app:layout_constraintRight_toRightOf="@id/vg90"
+    app:layout_constraintTop_toBottomOf="@id/text_alreadyhaveaccount"
+
+
+    />
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/hg10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:layout_constraintGuide_percent=".1" />
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/hg900"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:layout_constraintGuide_percent="0.9" />
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/vg10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_percent=".1" />
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guideline8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_percent="0.9002433" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

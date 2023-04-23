@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.popeyes.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.popeyes.GalleryFragment"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.popeyes.CartFragment"
+        android:label="Cart"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/nav_orderdetails"
+        android:name="com.example.popeyes.orderdetails"
+        android:label="Order"
+        tools:layout="@layout/fragment_orderdetails" />
+    <activity
+        android:id="@+id/nav_signup"
+        android:name="com.example.popeyes.SignUpActivity"
+        android:label="Sign Up"
+        tools:layout="@layout/activity_sign_up"/>
+
+</navigation>

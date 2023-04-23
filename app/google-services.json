@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "324286242106",
+    "project_id": "popeyes-12e52",
+    "storage_bucket": "popeyes-12e52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324286242106:android:9e3bb7691174b171e30403",
+        "android_client_info": {
+          "package_name": "com.example.popeyes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324286242106-nokigship3di1ctdg0pjrhmod3mv2js1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZtl4v-cyvQ2q26-KjJ_LquUkGXZ7REpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324286242106-nokigship3di1ctdg0pjrhmod3mv2js1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
